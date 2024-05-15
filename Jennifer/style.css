@@ -136,3 +136,19 @@ body {
   .nav-lista li a:hover {
     background-color: #ed83b5;
   }
+
+  .nav-lista {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-lista li {
+    margin: 0 12px;
+}
+
+.nav-logo img {
+    height: 70px; /* Ajusta la altura del logo según tus necesidades */
+}
