@@ -34,7 +34,8 @@ body {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(255, 17, 128, 0.459);
+	/* background: rgba(255, 17, 128, 0.459); */
+	background: #fddeff4d;
 }
 #slider-area .owl-item div {
 	height: 100vh;
@@ -105,7 +106,6 @@ body {
 	background-color: transparent;
 }
 
-
 /* codigo plinio */
 
 .contenedor {
@@ -157,6 +157,57 @@ body {
 .nav-logo img {
     height: 70px; /* Ajusta la altura del logo según tus necesidades */
 }
+
+
+/* Nosotros */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 500px; */
+    margin-top: 200px;
+    /* padding: 0; */
+   
+}
+ 
+.imagen-contenedor {
+    flex: 2;
+}
+ 
+.imagen-contenedor img {
+    width: 600px;
+    height: 600px;
+    display: block;
+    border-radius: 50%;
+}
+ 
+.nosotros-contenedor {
+    flex: 2;
+    padding: 20px;
+    height: 260px;
+    border-radius: 6%;
+}
+ 
+.text {
+    color: #ec297b;
+   
+}
+ 
+.text span {
+    font-size: 80px;
+    text-align: center;
+}
+ 
+.text p {
+    text-align:center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+ 
+
+
+
 
 
 
