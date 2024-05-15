@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- divinectorweb.com -->
+<head>
+    <!-- Metadatos para el documento -->
+    <meta charset="UTF-8">
+    <!-- Título de la página -->
+    <title>get-power</title>
+    <!-- Fuente Montserrat desde Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <!-- CSS de Owl Carousel -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" rel="stylesheet">
+    <!-- Archivo CSS personalizado -->
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Contenedor principal -->
+    <div id="wrapper">
+		<div class="owl-carousel" id="slider-area">
+			<div style="background-image: url(img/look.jpg)"></div>
+			<div style="background-image: url(img/look2.jpg)"></div>
+			<div style="background-image: url(img/look3.jpg)"></div>
+		</div>
+        <section id="navegacion">
+            <nav class="nav-navegacion">
+                <ul class="nav-lista ">
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- Texto superpuesto en el carrusel -->
+        <div class="slider-text">
+            <!-- Título principal con un elemento span para resaltar "Agency" -->
+            <h2>get<span>-power</span></h2>
+            <!-- Párrafo de texto -->
+            <p>Eres Bella, Eres Podersa, Demuestralo con nuestralinea de ropa!!</p>
+            <!-- Enlaces para "Learn More" y "Contact Us" -->
+            <a href="#">Ver Mas</a>
+           
+        </div>
+    </div>
+    <!-- Scripts de jQuery y Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+    // Inicialización de Owl Carousel
+    $('#slider-area').owlCarousel({
+       loop: true, // Habilita el bucle continuo del carrusel
+       autoplay: true, // Activa la reproducción automática del carrusel
+       responsive: {
+           0: {
+               items: 1 // Muestra 1 ítem por pantalla en dispositivos pequeños
+           },
+           600: {
+               items: 1 // Muestra 1 ítem por pantalla en dispositivos medianos
+           },
+           1000: {
+               items: 1 // Muestra 1 ítem por pantalla en dispositivos grandes
+           }
+       }
+    })        
+    </script>
+</body>
+</html>

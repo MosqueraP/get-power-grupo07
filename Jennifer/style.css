@@ -1,0 +1,138 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+    color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+#wrapper {
+	position: relative;
+	height: 100vh;
+}
+#slider-area {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+#slider-area::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 17, 128, 0.459);
+}
+#slider-area .owl-item div {
+	height: 100vh;
+	width: 100%;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+#wrapper #nav-area {
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	text-align: center;
+	z-index: 1;
+}
+.nav-area {
+	text-align: center;
+	padding: 26px 0;
+}
+.nav a {
+	font-family: montserrat;
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin: 0 15px;
+	padding: 10px;
+	transition: all .6s ease;
+}
+.nav a:hover {
+	background: rgb(227, 255, 102);
+}
+.slider-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.slider-text h2 {
+	font-family: montserrat;
+	font-size: 55px;
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase;
+}
+.slider-text h2 span {
+	color: #fff48b;
+}
+.slider-text p {
+	font-size: 18px;
+	color: #0e0d0d;
+}
+.slider-text a {
+	text-decoration: none;
+	background: #fff48b;
+	color: #0c0c0c;
+	display: inline-block;
+	padding: 12px 45px;
+	margin: 15px;
+	text-transform: uppercase;
+	font-family: montserrat;
+	font-weight: 500;
+	border: 2px solid #fff;
+}
+.slider-text a.btn {
+	background-color: transparent;
+}
+
+
+/* codigo plinio */
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	
+}
+
+
+/* Estilos para la barra de navegación con CSS Grid */
+.nav-navegacion {
+    background-color: #ec297b;
+    display: grid;
+    place-items: center;
+    height: 60px;
+  }
+  
+  .nav-lista {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 0px; /* Espacio entre los elementos de la lista */
+  }
+  
+  .nav-lista li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 15px;
+  }
+  
+  .nav-lista li a:hover {
+    background-color: #ed83b5;
+  }
