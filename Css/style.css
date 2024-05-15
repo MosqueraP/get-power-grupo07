@@ -152,3 +152,70 @@ body {
 .nav-logo img {
     height: 70px; /* Ajusta la altura del logo según tus necesidades */
 }
+
+
+
+/* Estilos para el pie de página */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ec297b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-col {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .footer-col img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col a img {
+    max-width: 30px;
+    margin: 5px;
+    vertical-align: middle;
+  }
+
+  .footer .sapan-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .footer-col h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col p {
+    margin-bottom: 5px;
+  }
+ 
+  .footer-col span {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .footer-col a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Otros estilos generales */
+  footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
