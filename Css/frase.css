@@ -1,28 +1,43 @@
+/* centar dody */
+
 body {
     min-height: 100vh;
     display: grid;
     place-items: center;
+    
   }
-  p {
-    width: 0;
+  .contenedor{
+    width: 1440px;
+    height: 230px;
+    background-image: url(../img/20240515_133404_0000.png);
+  }
+  /* estilos de parrafo */
+  .frase {
+    color: #ec297b;
+    text-shadow: 0 0 10px rgb(255, 255, 255 );
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    width: 800px; 
+    padding: 75px;
+    text-align: center;
     overflow: hidden;
     white-space: nowrap;
-    font-size: 2rem;
-    margin: 0 auto;
-    font-family: "Courier New";
-    border-right: 0.15em solid #18bdec;
-    animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
-  }
-  @keyframes typing {
+    animation: typing 6s steps(40) infinite, blink 5s steps(1) infinite;
+}
+
+@keyframes typing {
     from {
-      width: 0;
+        width: 0;
     }
     to {
-      width: 100%;
+        width: 80%;
     }
-  }
-  @keyframes blink {
-    50% {
-      border-color: transparent;
+}
+
+@keyframes blink {
+    100% {
+        border-color: transparent;
     }
-  }
+}
