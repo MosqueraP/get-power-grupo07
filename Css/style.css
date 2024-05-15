@@ -10,10 +10,15 @@ body {
     color: #fff;
 	font-family: 'Roboto', sans-serif;
 }
-#wrapper {
+
+
+/* #wrapper {
 	position: relative;
 	height: 100vh;
-}
+} */
+
+
+
 #slider-area {
 	position: absolute;
 	height: 100vh;
@@ -151,4 +156,129 @@ body {
 
 .nav-logo img {
     height: 70px; /* Ajusta la altura del logo según tus necesidades */
+}
+
+
+
+/* Estilos para el pie de página */
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ec297b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-col {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .footer-col img {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-col a img {
+    max-width: 30px;
+    margin: 5px;
+    vertical-align: middle;
+  }
+
+  .footer .sapan-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .footer-col h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-col p {
+    margin-bottom: 5px;
+  }
+ 
+  .footer-col span {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .footer-col a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-col a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Otros estilos generales */
+  footer {
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        margin-bottom: 20px;
+    }
+    .iconos {
+		display: flex;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .nav-lista {
+        flex-direction: column;
+    }
+
+    .nav-lista li {
+        margin: 10px 0;
+    }
+
+    .slider-text h2 {
+        font-size: 40px;
+    }
+
+    .slider-text p {
+        font-size: 16px;
+    }
+
+    .slider-text a {
+        padding: 10px 35px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .slider-text h2 {
+        font-size: 30px;
+    }
+
+    .slider-text p {
+        font-size: 14px;
+    }
+
+    .slider-text a {
+        padding: 8px 25px;
+    }
+
+    .nav-logo img {
+        height: 50px;
+    }
 }
